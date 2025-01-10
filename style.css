@@ -1,0 +1,64 @@
+body {
+    font-weight: 100;
+    background: lightgray;
+    margin: 0;
+    padding: 0;
+}
+
+.header_pagina {
+    border-bottom: 1px;
+    border-color: white;
+    background: white;
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+
+.header_pagina > div {
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.contenido{
+    width: 600px;
+    margin:auto;
+}
+
+article{
+    background: white;
+    margin-bottom: 60px;
+    border-radius: 3px;
+    border: 1px solid whitesmoke;
+}
+
+article > header{
+    padding: 0px 14px;
+}
+
+.titulo_articulo{
+    overflow: hidden;
+}
+
+.titulo_foto h2{
+    font-size: 20px;
+    float: left;
+    width: 90%
+}
+
+.fecha_foto{
+    text-align: right;
+    color: gray;
+}
+
+.foto{
+    border-bottom: 1px solid whitesmoke;
+    border-top: 1px solid whitesmoke;
+}
+
+.comentario{
+    padding: 0px 25px;
+}
+
+img{
+    max-width: 599px;
+}
